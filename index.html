@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta htt-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal portfolio Website</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/a73bedb55b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+          <div id="header">
+            <div class="container">
+                <nav>
+                   <!-- <img src="image/ss.png" alt="logo"> -->
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#Interest">Interest</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text"></div>
+                <p style="font-size: 20px;"></p>
+                <h1 style="font-size: 70px;">Hi, I'm <span class="j">Mubasshira</span> <br>          Muneer Ahamed</h1>
+            </div>
+          </div>
+<!----------------------------------about------------------------------------------ -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/phto.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                       <pre>
+
+                       </pre>
+                    
+                        <p>I’m an enthusiastic and motivated Computer Science Engineering student with a strong 
+                            foundation in programming languages,
+                             web development, and database management. Seeking an internship 
+                             opportunity to apply my technical skills and 
+                             contribute to the growth of a dynamic software development team.
+                             Eager to gain hands-on experience in software engineering,
+                              problem-solving, and collaborative project work</p>
+
+                              <div class="tab-title">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                                <!-- <p class="tab-links" onclick="opentab('language')">Language</p> -->
+                              </div>
+                              <div class="tab-contents active-tab" id="skills">
+                                 <ul>
+                                    
+                                    
+                                    <li><span style="color: #175574;">Programming language</span><br>Java, C</li>
+                                    <li><span style="color: #175574;">Web development</span><br>MERN Technology</li>
+                                    <li><span style="color: #175574;">UI/UX</span><br>Designing Web/App Interfaces</li>
+                                    <li><span style="color: #175574;">Cyber Security</span><br>Network Security, SIEM</li>
+                                    <li><span style="color: #175574;">Artificial Intelligence</span><br>Tensorflow</li>
+                                    <li><span style="color: #175574;">Machine learning </span><br>Tensorflow</li>
+                                    <li><span style="color: #175574;">Database management</span><br>MySQL, NoSQL</li>
+                                    <li><span style="color: #175574;">Operating System</span><br>Windows, Linux</li>
+
+
+                                 </ul>
+                              </div>
+                              <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span style="color: #175574;">Bachelor of Engineering</span><br>Karpagam Institute of Technology</li>
+                                    <li><span style="color: #175574;">Higher Secondary School</span><br>Alvernia Matriculation Higher Secondary School</li>
+                                    <li><span style="color: #175574;">Secondary School</span><br>Indian Public School</li>
+                                </ul>
+
+                                <!-- <div class="tab-contents" id="language" >
+                                    <ul>
+                                        <li><span>English</span></li>
+                                        <li><span>Hindi</span></li>
+                                        <li><span>Assamese</span></li>
+                                        <li><span>Tamil</span></li>
+                                    </ul>
+                                </div> -->
+
+                              </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- -----------------------------------Interest------------------------------------------------- -->
+<div id="Interest">
+    <div class="container">
+        <h1 class="sub-title">Interests</h1>
+         <div class="interest-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+
+            <h2>Web Design</h2>
+            <p>Which is an art of creating visually appealing and user-friendly
+                 websites through a combination of layout, graphics, and interactive elements.</p>
+            <a href="https://en.wikipedia.org/wiki/Web_design" style="text-decoration: underline;">Learn more</a>
+          </div>
+          <div>
+
+            <i class="fa-solid fa-network-wired"></i>
+
+            <h2>AI&ML</h2>
+            <p>Which are fields of computer science that enable machines
+                 to learn from data and make intelligent decisions, improving automation and problem-solving.</p>
+            <a href="https://en.wikipedia.org/wiki/Artificial_Intelligence_Markup_Language" style="text-decoration: underline;">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-lock"></i>
+
+            <h2>Cyber Security</h2>
+            <p>Which involves legally and responsibly exploiting computer
+                 systems to identify and address security vulnerabilities and protect against cyber threats.</p>
+            <a href="https://en.wikipedia.org/wiki/Cybersecurity_information_technology_list" style="text-decoration: underline;">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-chart-simple"></i>
+
+            <h2>Digital Marketing</h2>
+            <p>It  encompasses online strategies and channels to promote products or services,
+                 reaching a wide audience and analyzing data for effective advertising and brand building.</p>
+            <a href="https://en.wikipedia.org/wiki/Digital_marketing" style="text-decoration: underline;">Learn more</a>
+          </div>
+          
+
+         </div>
+    </div>
+</div>
+<!-- ------------------------------------------Portfolio--------------------------------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+         <h1 class="sub-title">My Work</h1>
+    
+  <div class="work-list">
+    <div class="work">
+        <img src="image/d.jpg">
+        <div class="layer">
+            <h2>Digital marketing web page</h2>
+            <p><br></p>
+            <p>This web page will give you information about jewels</p>
+           
+            <a href="https://jewelsels.blogspot.com/2023/05/blog-post.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+    </div>
+    <div class="work">
+       <img src="image/bulb.avif">
+       <div class="layer">
+        <h2>AI Midjourney</h2>
+        <p> <br>  </p>
+            <p>This design page for Midjourney offers an immersive experience and exploration.</p>
+            <a href="https://c1.wallpaperflare.com/preview/184/11/589/coming-soon-coming-soon-patience.jpg"><i class="fa-solid fa-up-right-from-square"></i></a>
+
+       </div>
+    </div>
+    
+    <div class="work">
+        <img src="image/iot.avif">
+        <div class="layer">
+            <h2>Internet Of Things</h2>
+            <p> <br>  </p>
+                <p>This page provides a guided exploration of IOT based solutions for better Environment Management through Environment Monitoring</p>
+                <a href="https://github.com/mubasshiramuneer/IOT-environment_management/tree/main"><i class="fa-solid fa-up-right-from-square"></i></a>
+    
+        
+        </div>
+     </div>
+     <div class="work">
+        <img src="image/achieve.jpg">
+        <div class="layer">
+            <h2>My achievements</h2>
+            <p> <br>  </p>
+                <p>View my certificates. Click here 👇</p>
+                <a href="https://drive.google.com/drive/folders/1HDjDzKAVrKxTpVEQJWjmeR84ROCDdvS4?usp=drive_link"><i class="fa-solid fa-up-right-from-square"></i></a>
+    
+        
+        </div>
+     </div>
+    
+  </div>
+</div>
+</div>
+
+<!-- ------------------------------------Contact------------------------------------------- -->
+
+<div id="contact">
+   <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> mubasshiraq8@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i> +91 7448465382</p>
+            <p><i class="fa-solid fa-location-dot"></i> Coimbatore, Tamil Nadu</p>
+            <div class="social-icon">
+                <!-- <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a> -->
+                <a href="https://www.linkedin.com/in/mubasshiramuneer/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/mubasshiramuneer"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="image/RESUME_Mubasshira.pdf"  download class="download-link">Download Resume</a>        </div>
+        <div class="contact-right">
+             <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="Email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="download-link">Submit</button>
+             </form>
+             <span id="msg">
+                       
+             </span>
+        </div>
+    </div>
+   </div>
+   <div class="copyright">
+
+    <p> "Opportunities don’t happen, you create them."</p>
+    <h3></h3>
+    <br>
+  <p> &copy; 2023 Mubasshira | Designed by Mubasshira</p> 
+   </div>
+</div>
+
+
+       <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents"); 
+                
+           function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+            
+            }
+          
+       </script> 
+       
+        <!-- <div id="sidemenu">
+          
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Interest</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div> -->
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-100%"; // Adjust the percentage as needed
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyurxaUeu-XA_nyy5OdnndACK1TKjBeBh3WpWrqNN65PDXOE-oxjLT5PG46MvlQHvyn/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg= document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+          
+
+    </body>
+</html>
